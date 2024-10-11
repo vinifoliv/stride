@@ -1,12 +1,12 @@
-import ArticleCard from "./ui/Card";
+import Card from "./ui/Card";
 import Menu from "./ui/Menu";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.body}>
       <Menu />
-      <ArticleCard />
+      <Card />
     </div>
   );
 }

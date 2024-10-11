@@ -1,0 +1,19 @@
+.card {
+    width: 50vw;
+    padding: 20px 40px; 
+    background-color: #3b3b3b;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.title, .date {
+    color: #2196f3;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.body {
+    color: white;
+}
